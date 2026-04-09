@@ -19,7 +19,7 @@ This project implements a multi-layered mathematical approach as detailed in my 
 * **Similarity Computation**: Applied **Cosine Similarity** to measure the angular proximity between movie vectors, effectively solving the "Cold Start" problem for niche festival films.
 
 ### 2. Unsupervised Learning (Clustering Layer)
-* **Theme Identification**: Used **K-Means Clustering** ($k=6$) to automatically categorize films into thematic groups (e.g., "Urban Social Margins," "Family & Relationships").
+* **Theme Identification**: Used **K-Means Clustering** (k=6) to automatically categorize films into thematic groups (e.g., "Urban Social Margins," "Family & Relationships").
 * **Dimensionality Reduction**: Employed **Principal Component Analysis (PCA)** to project high-dimensional embeddings into 2D/3D space for cluster validation and visualization.
 
 ### 3. Heuristic Scheduling (Optimization Layer)
