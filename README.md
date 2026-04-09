@@ -52,5 +52,4 @@ This research was conducted as part of the **"Big Data & Intelligent Information
 
 ---
 **Author:** Songning (Sonny) Li  
-**Target Program:** M.Sc. Computational Modeling and Simulation, TU Dresden  
 **Contact:** [sonnylee030730@gmail.com]
