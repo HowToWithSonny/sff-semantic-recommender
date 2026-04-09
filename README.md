@@ -38,7 +38,7 @@ This project implements a multi-layered mathematical approach as detailed in my 
 
 ## Live Interactive Demo
 Experience the semantic recommendation engine live:
-👉 **[SFF Semantic Lab on Hugging Face Spaces](https://huggingface.co/spaces/howtowithsonny/sff-smart-scheduler)** *(Note: Use movie titles like "Inception" or "The Grandmaster" to test the vector similarity.)*
+👉 **[SFF Semantic Lab on Hugging Face Spaces](https://huggingface.co/spaces/howtowithsonny/sff-smart-scheduler)** *(Note: Use movie titles like "Blue Velvet" or "Pride and Prejudice" to test the vector similarity.)*
 
 ## Repository Structure
 * `app.py`: The production Gradio application.
