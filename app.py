@@ -21,7 +21,7 @@ movie_embeddings = model.encode(df['description'].tolist(), show_progress_bar=Tr
 # --- 3. Analysis Logic ---
 def analyze_semantics(query_title):
     if query_title not in df['title'].values:
-        return None, f"⚠️ '{query_title}' not found in dataset. Try 'The Grandmaster' or check spelling."
+        return None, f"⚠️ '{query_title}' not found in dataset. Try 'Twin Peaks: Fire Walk with Me' or check spelling."
     
     idx = df[df['title'] == query_title].index[0]
     sim_scores = cosine_similarity([movie_embeddings[idx]], movie_embeddings)[0]
@@ -40,7 +40,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     
     with gr.Row():
         with gr.Column():
-            input_box = gr.Textbox(label="Enter Movie Title (English)", placeholder="e.g. Inception")
+            input_box = gr.Textbox(label="Enter Movie Title (English)", placeholder="e.g. Blue Velvet")
             run_btn = gr.Button("Analyze", variant="primary")
         with gr.Column():
             status = gr.Label(label="Status")
